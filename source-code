@@ -3,8 +3,6 @@
 #include <stdio.h>
 #include <ctype.h>
 
-int empty_set(string a);
-
 int main(void)
 {
     string s = get_string("Get null of any string: ");
