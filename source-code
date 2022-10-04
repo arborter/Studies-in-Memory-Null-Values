@@ -7,14 +7,17 @@ int main(void)
 {
     string s = get_string("Get null of any string: ");
 
-    // Counter of alphabetical characters
+    // Counter of non-null characters
     int alpha = 0;
+    // Counter of null character
     int null = 0;
+    // Counter of array size
     int array_size = 0;
 
-    // Loop to
+    // Count the aforestated values
     for (int i = 0; i <= strlen(s); i++)
     {
+        // Various values to search through to denote character
         if (isalpha(s[i]) || isdigit(s[i]) || s[i] == ' ' || s[i] == '!' || s[i] == '?' || s[i] == ',' || s[i] == ';' || s[i] == ':' || s[i] == '"')
         {
             alpha++;
