@@ -26,7 +26,7 @@ int main(void)
         {
             null++;
             array_size = null + alpha;
-            printf("Null characters: %c\n", s[i]);
+            printf("Null characters: %c\n", s[i + 1]);
             printf("Non-null characters in array: %i\n", alpha);
             printf("Number of Null values in array: %i\n", null);
             printf("Size of array: %i\n", array_size);
